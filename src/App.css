@@ -1,0 +1,46 @@
+*     
+        html {
+        height: 100vh;
+        min-width: 600px;
+        background-size: auto;
+        background-color: #ffffff;
+    }
+
+    .list-body {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    form {
+        background-color: #dd0d6e;
+        padding: 10px;
+        display: flex;
+    }
+
+    input[type="text"] {
+        height: 30px;
+        outline: 0;
+        border: none;
+        font-size: 1rem;
+        color: #000000de;
+        flex-grow: 1;
+    }
+
+    .todo {
+        background-color: #dd0d6e;
+        outline: 0;
+        padding: 10px 5px;
+        height: 100%;
+        overflow-y: auto;
+        font-size: large;
+        font-style: italic;
+    }
+
+    ul{
+        list-style: none;
+    }
+    
